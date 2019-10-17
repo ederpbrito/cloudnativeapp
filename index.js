@@ -8,7 +8,7 @@ var request = require("request");
 app.get('/', function (req, res) {
     var options = {
         method: 'GET',
-        url: `https://amfqqdhacwyugpi-workshopatp.adb.us-ashburn-1.oraclecloudapps.com/ords/ords/api/users/`,
+        url: `https://amfqqdhacwyugpi-workshopatp.adb.us-ashburn-1.oraclecloudapps.com/ords/ords/api/users/?id=62`,
     };
     request(options, function (error, response, body) {
         if (error) throw new Error(error);
